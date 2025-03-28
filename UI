@@ -164,7 +164,7 @@ function Lib.Window(Title)
 	LibraryTitle.Name = "LibraryTitle"
 	LibraryTitle.Parent = TopBar
 	LibraryTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	LibraryTitle.BackgroundTransparency = 1.000
+	LibraryTitle.BackgroundTransparency = 0.500
 	LibraryTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	LibraryTitle.BorderSizePixel = 0
 	LibraryTitle.Position = UDim2.new(0.0194763951, 2, 0.169778883, -4)
@@ -228,7 +228,7 @@ function Lib.Window(Title)
 		TabContent.Parent = ContentHolder
 		TabContent.Active = true
 		TabContent.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		TabContent.BackgroundTransparency = 1.000
+		TabContent.BackgroundTransparency = 0.5
 		TabContent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TabContent.BorderSizePixel = 0
 		TabContent.Position = UDim2.new(0.331549704, 0, 0.153153151, 0)
@@ -319,7 +319,7 @@ function Lib.Window(Title)
 			ButtonTrigger.Size = UDim2.new(0, 237, 0, 32)
 			ButtonTrigger.ZIndex = 5
 			ButtonTrigger.Text = ""
-			ButtonTrigger.TextTransparency = 1.000
+			ButtonTrigger.TextTransparency = 0.5
 
 			TextLabel.Parent = ButtonFrame
 			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -339,7 +339,7 @@ function Lib.Window(Title)
 			TouchImage.Name = "TouchImage"
 			TouchImage.Parent = ButtonFrame
 			TouchImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			TouchImage.BackgroundTransparency = 1.000
+			TouchImage.BackgroundTransparency = 0.5
 			TouchImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TouchImage.BorderSizePixel = 0
 			TouchImage.Position = UDim2.new(0.0590717308, -5, 0.1875, -2)
@@ -431,7 +431,7 @@ function Lib.Window(Title)
 			SliderLabel.Name = "SliderLabel"
 			SliderLabel.Parent = SliderFrame
 			SliderLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			SliderLabel.BackgroundTransparency = 1.000
+			SliderLabel.BackgroundTransparency = 0.5
 			SliderLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			SliderLabel.BorderSizePixel = 0
 			SliderLabel.Position = UDim2.new(0.185654014, 0, 0, 0)
@@ -461,7 +461,7 @@ function Lib.Window(Title)
 			SliderTrigger.Name = "SliderTrigger"
 			SliderTrigger.Parent = SliderFrame
 			SliderTrigger.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
-			SliderTrigger.BackgroundTransparency = 1.000
+			SliderTrigger.BackgroundTransparency = 0.5
 			SliderTrigger.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			SliderTrigger.BorderSizePixel = 0
 			SliderTrigger.ClipsDescendants = true
@@ -495,7 +495,7 @@ function Lib.Window(Title)
 			ValueLabel.Name = "ValueLabel"
 			ValueLabel.Parent = SliderFrame
 			ValueLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ValueLabel.BackgroundTransparency = 1.000
+			ValueLabel.BackgroundTransparency = 0.5
 			ValueLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ValueLabel.BorderSizePixel = 0
 			ValueLabel.Position = UDim2.new(0.628692031, 0, 0.0416666679, -1)
@@ -506,7 +506,7 @@ function Lib.Window(Title)
 			ValueLabel.TextColor3 = Color3.fromRGB(227, 227, 227)
 			ValueLabel.TextSize = 26.000
 			ValueLabel.TextWrapped = true
-			ValueLabel.TextTransparency = 1.000
+			ValueLabel.TextTransparency = 0.5
 
 			local mouse = game.Players.LocalPlayer:GetMouse()
 			local uis = game:GetService("UserInputService")
@@ -594,7 +594,7 @@ function Lib.Window(Title)
 			ToggleDisabled.Name = "ToggleDisabled"
 			ToggleDisabled.Parent = ToggleFrame
 			ToggleDisabled.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ToggleDisabled.BackgroundTransparency = 1.000
+			ToggleDisabled.BackgroundTransparency = 0.5
 			ToggleDisabled.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ToggleDisabled.BorderSizePixel = 0
 			ToggleDisabled.Position = UDim2.new(0.0590717308, -5, 0.1875, -1)
@@ -626,7 +626,7 @@ function Lib.Window(Title)
 			ToggleTrigger.Size = UDim2.new(0, 237, 0, 32)
 			ToggleTrigger.ZIndex = 5
 			ToggleTrigger.Text = ""
-			ToggleTrigger.TextTransparency = 1.000
+			ToggleTrigger.TextTransparency = 0.5
 
 			ToggleEnabled.Name = "ToggleEnabled"
 			ToggleEnabled.Parent = ToggleFrame
@@ -641,7 +641,7 @@ function Lib.Window(Title)
 			ToggleEnabled.ImageColor3 = Color3.fromRGB(228, 197, 255)
 			ToggleEnabled.ImageRectOffset = Vector2.new(784, 420)
 			ToggleEnabled.ImageRectSize = Vector2.new(48, 48)
-			ToggleEnabled.ImageTransparency = 1.000
+			ToggleEnabled.ImageTransparency = 0.5
 			
 			local img = ToggleEnabled
 			local sample = Circle
@@ -749,7 +749,7 @@ function Lib.Window(Title)
 			KeybindLabel.Name = "KeybindLabel"
 			KeybindLabel.Parent = KeybindFrame
 			KeybindLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			KeybindLabel.BackgroundTransparency = 1.000
+			KeybindLabel.BackgroundTransparency = 0.5
 			KeybindLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			KeybindLabel.BorderSizePixel = 0
 			KeybindLabel.Position = UDim2.new(0.185654014, 0, 0.0540540516, 0)
@@ -765,7 +765,7 @@ function Lib.Window(Title)
 			KeybindImage.Name = "KeybindImage"
 			KeybindImage.Parent = KeybindFrame
 			KeybindImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			KeybindImage.BackgroundTransparency = 1.000
+			KeybindImage.BackgroundTransparency = 0.5
 			KeybindImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			KeybindImage.BorderSizePixel = 0
 			KeybindImage.Position = UDim2.new(0.0590717271, -5, 0.241554052, -2)
@@ -805,7 +805,7 @@ function Lib.Window(Title)
 			ToggleTrigger.Size = UDim2.new(0, 237, 0, 34)
 			ToggleTrigger.ZIndex = 5
 			ToggleTrigger.Text = ""
-			ToggleTrigger.TextTransparency = 1.000
+			ToggleTrigger.TextTransparency = 0.5
 
 			ToggleTrigger.MouseButton1Click:Connect(function()
 				Input.Text = ". . ."
@@ -858,7 +858,7 @@ function Lib.Window(Title)
 			TextboxLabel.Name = "TextboxLabel"
 			TextboxLabel.Parent = TextboxFrame
 			TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			TextboxLabel.BackgroundTransparency = 1.000
+			TextboxLabel.BackgroundTransparency = 0.5
 			TextboxLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TextboxLabel.BorderSizePixel = 0
 			TextboxLabel.Position = UDim2.new(0.186, 0, 0.054, -1)
@@ -874,7 +874,7 @@ function Lib.Window(Title)
 			PencilImage.Name = "PencilImage"
 			PencilImage.Parent = TextboxFrame
 			PencilImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			PencilImage.BackgroundTransparency = 1.000
+			PencilImage.BackgroundTransparency = 0.5
 			PencilImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			PencilImage.BorderSizePixel = 0
 			PencilImage.Position = UDim2.new(0.059, -5, 0.171, -2)
@@ -955,7 +955,7 @@ function Lib.Window(Title)
 			DropdownLabel.Name = "DropdownLabel"
 			DropdownLabel.Parent = DropdownFrame
 			DropdownLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			DropdownLabel.BackgroundTransparency = 1.000
+			DropdownLabel.BackgroundTransparency = 0.5
 			DropdownLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			DropdownLabel.BorderSizePixel = 0
 			DropdownLabel.Position = UDim2.new(0.151, 0, 0.037, 0)
@@ -971,7 +971,7 @@ function Lib.Window(Title)
 			DropdownImage.Name = "DropdownImage"
 			DropdownImage.Parent = DropdownFrame
 			DropdownImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			DropdownImage.BackgroundTransparency = 1.000
+			DropdownImage.BackgroundTransparency = 0.5
 			DropdownImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			DropdownImage.BorderSizePixel = 0
 			DropdownImage.Position = UDim2.new(0.03, 0, 0.196, -1)
@@ -985,14 +985,14 @@ function Lib.Window(Title)
 			DropdownTrigger.Name = "DropdownTrigger"
 			DropdownTrigger.Parent = DropdownFrame
 			DropdownTrigger.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
-			DropdownTrigger.BackgroundTransparency = 1.000
+			DropdownTrigger.BackgroundTransparency = 0.5
 			DropdownTrigger.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			DropdownTrigger.BorderSizePixel = 0
 			DropdownTrigger.ClipsDescendants = true
 			DropdownTrigger.Size = UDim2.new(0, 237, 0, 32)
 			DropdownTrigger.ZIndex = 5
 			DropdownTrigger.Text = ""
-			DropdownTrigger.TextTransparency = 1.000
+			DropdownTrigger.TextTransparency = 0.5
 			DropdownTrigger.MouseButton1Click:Connect(function()
 				if IsDropped == false then 
 					local ClickSound = 	Instance.new("Sound")
@@ -1029,7 +1029,7 @@ function Lib.Window(Title)
 			DropdownContainer.Active = true
 			DropdownContainer.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
 			DropdownContainer.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			DropdownContainer.BackgroundTransparency = 1
+			DropdownContainer.BackgroundTransparency = 0.5
 			DropdownContainer.BorderSizePixel = 0
 			DropdownContainer.Position = UDim2.new(0.177704751, 0, 0.28498134, 0)
 			DropdownContainer.Size = UDim2.new(0, 150, 0, 76)
@@ -1131,7 +1131,7 @@ function Lib.Window(Title)
 			ChatImage.Name = "ChatImage"
 			ChatImage.Parent = LabelFrame
 			ChatImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ChatImage.BackgroundTransparency = 1.000
+			ChatImage.BackgroundTransparency = 0.5
 			ChatImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ChatImage.BorderSizePixel = 0
 			ChatImage.Position = UDim2.new(0.0590717308, -5, 0.1875, -2)
@@ -1165,7 +1165,7 @@ function Lib.Window(Title)
 			DividerText.Name = "DividerText"
 			DividerText.Parent = DividerFrame
 			DividerText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			DividerText.BackgroundTransparency = 1.000
+			DividerText.BackgroundTransparency = 0.5
 			DividerText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			DividerText.BorderSizePixel = 0
 			DividerText.Size = UDim2.new(0, 237, 0, 22)
