@@ -97,7 +97,7 @@ function Lib.Window(Title)
 	TabNavigator.Parent = TabFrame
 	TabNavigator.Active = true
 	TabNavigator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TabNavigator.BackgroundTransparency = 1.000
+	TabNavigator.BackgroundTransparency = 0.5
 	TabNavigator.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabNavigator.BorderSizePixel = 0
 	TabNavigator.Position = UDim2.new(0.00733371312, 0, 0, 0)
