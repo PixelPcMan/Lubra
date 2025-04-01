@@ -1,3 +1,4 @@
+wait(10)
 local Players = game:GetService("Players")
 
 local function kickPlayer(message1, message2)
